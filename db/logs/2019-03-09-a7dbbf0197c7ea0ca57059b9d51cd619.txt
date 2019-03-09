@@ -1,0 +1,99 @@
+Time : 18:58:49
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fname' cannot be null
+Raw SQL : INSERT INTO volunteer_list(fname,lname,email,pass,mobi,addre,volentierid,created_at) VALUES(?,?,?,?,?,?,?,?)
+
+Time : 18:43:58
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hemal_project.volen' doesn't exist
+Raw SQL : SELECT * FROM volen
+
+Time : 18:42:35
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hemal_project.volen' doesn't exist
+Raw SQL : SELECT * FROM volen
+
+Time : 18:41:44
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hemal_project.volen' doesn't exist
+Raw SQL : SELECT * FROM volen
+
+Time : 13:59:50
+SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'addre' at row 1
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre,volentierid,created_at) VALUES(?,?,?,?,?,?,?,?)
+
+Time : 12:58:53
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre,volentierid,created_at) VALUES(?,?,?,?,?,?,?)
+
+Time : 12:55:31
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre,volentierid,created_at) VALUES(?,?,?,?,?,?,?)
+
+Time : 12:54:14
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre,volentierid,created_at) VALUES(?,?,?,?,?,?,?)
+
+Time : 12:16:57
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre,volentierid) VALUES(?,?,?,?,?,?)
+
+Time : 12:14:55
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre,volentierid) VALUES(?,?,?,?,?,?)
+
+Time : 12:12:19
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre,volentierid) VALUES(?,?,?,?,?,?)
+
+Time : 12:10:49
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre,volentierid) VALUES(?,?,?,?,?,?)
+
+Time : 11:15:25
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre,volentierid) VALUES(?,?,?,?,?,?)
+
+Time : 10:49:47
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fname' cannot be null
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre) VALUES(?,?,?,?,?,?)
+
+Time : 10:49:31
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fname' cannot be null
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre) VALUES(?,?,?,?,?,?)
+
+Time : 10:45:10
+SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'addre' at row 1
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre) VALUES(?,?,?,?,?,?)
+
+Time : 10:43:09
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fname' cannot be null
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre) VALUES(?,?,?,?,?,?)
+
+Time : 10:43:02
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fname' cannot be null
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre) VALUES(?,?,?,?,?,?)
+
+Time : 10:38:43
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fname' cannot be null
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre) VALUES(?,?,?,?,?,?)
+
+Time : 10:37:21
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fname' cannot be null
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre) VALUES(?,?,?,?,?,?)
+
+Time : 08:24:06
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fname' cannot be null
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre) VALUES(?,?,?,?,?,?)
+
+Time : 08:23:10
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fname' cannot be null
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre) VALUES(?,?,?,?,?,?)
+
+Time : 07:57:25
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fname' cannot be null
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre) VALUES(?,?,?,?,?,?)
+
+Time : 07:57:21
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fname' cannot be null
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre) VALUES(?,?,?,?,?,?)
+
+Time : 07:55:27
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fname' cannot be null
+Raw SQL : INSERT INTO volen(fname,lname,email,pass,mobi,addre) VALUES(?,?,?,?,?,?)
