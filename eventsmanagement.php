@@ -1,4 +1,7 @@
-<?php
+<?php 
+if(!isset($_COOKIE["adminlogin"])) {
+header("Location: 404.php");
+}
 include_once 'header.php';
 
 ?>

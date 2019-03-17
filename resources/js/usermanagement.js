@@ -1,4 +1,4 @@
-$(function () { $("input").not("[type=submit]").jqBootstrapValidation({
+$(function () { $("input,select").not("[type=submit]").jqBootstrapValidation({
         preventSubmit:true,
         submitError:function($form,event,errors)
         {},
@@ -11,15 +11,17 @@ $(function () { $("input").not("[type=submit]").jqBootstrapValidation({
         var password=$("input#upassword").val();
         var mobile=$("input#mobile").val();
         var address=$("input#address").val();
+        var usertype=$("input#usertype").val();
         var volentierid=Math.random().toString(36).substring(2, 15);
+     
         $.ajax({
-        url:"volentier/handlevolentier.php",
+        url:"",
         type:"POST",
-        data:{firstname:firstname,lastname:lastname,email:email,password:password,mobile:mobile,address:address,volentierid:volentierid},
+        data:{firstname:firstname,lastname:lastname,email:email,password:password,mobile:mobile,address:address,volentierid:volentierid,usertype:usertype},
         cache:false,
         success:function(){
         $("#form")[0].reset();
-        $('#success').html("<div class='alert alert-success col-md-9 offset-md-3'>");
+        $('#success').html("<div class='alert alert-success'>");
           $('#success>.alert-success')
           .append("<strong>New member "+firstname+' '+lastname+" added on the list."+" ID is"+volentierid+"</strong>");
           $('#success>.alert-success')

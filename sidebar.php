@@ -21,6 +21,7 @@
             <a class="dropdown-item" href="blank.html">Blank Page</a>
           </div>
         </li> -->
+        
         <li class="nav-item">
           <a class="nav-link" href="usermanagement.php">
             <i class="far fa-user"></i>
@@ -28,7 +29,7 @@
           </li>
         <li class="nav-item">
           <a class="nav-link" href="eventsmanagement.php">
-            <i class="far fa-user"></i>
+            <i class="fab fa-elementor"></i>
             <span>Events Management</span></a>
           </li>
           
